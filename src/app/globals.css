@@ -1,0 +1,4 @@
+@import "tailwindcss";
+
+/* 다크모드: <html class="dark"> 기준으로 전환 */
+@custom-variant dark (&:where(.dark, .dark *));

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="더미 프로필 사진">
+  <rect width="200" height="200" fill="#d4d4d8"/>
+  <circle cx="100" cy="78" r="38" fill="#a1a1aa"/>
+  <path d="M24 200c0-44 33-74 76-74s76 30 76 74z" fill="#a1a1aa"/>
+</svg>
