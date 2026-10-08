@@ -1,4 +1,4 @@
-import LinkCard from "@/components/LinkCard";
+import LinkList from "@/components/LinkList";
 import ProfileHeader from "@/components/ProfileHeader";
 import ThemeToggle from "@/components/ThemeToggle";
 import { links, profile } from "@/data/profile";
@@ -12,13 +12,7 @@ export default function Home() {
         bio={profile.bio}
         image={profile.image}
       />
-      <ul className="mt-10 flex w-full flex-col gap-6">
-        {links.map((link) => (
-          <li key={link.id}>
-            <LinkCard id={link.id} title={link.title} url={link.url} />
-          </li>
-        ))}
-      </ul>
+      <LinkList links={links} />
     </main>
   );
 }
